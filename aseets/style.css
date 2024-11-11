@@ -42,7 +42,6 @@ p {
     transition-property: filter;
     transition-duration: 1s;
 }
-
 .text-style {
     text-shadow:
     rgb(255, 94, 0) 1px 0 10px;
