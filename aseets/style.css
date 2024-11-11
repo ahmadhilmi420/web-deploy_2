@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: "Customfont";
-    src:url("./aseets/Poppins-Regular.ttf");
+    src:url("Poppins-Regular.ttf");
 }
 
 body {
@@ -31,7 +31,7 @@ p {
 }
 
 .background {
-    background-image: url(./aseets/beautifull_beach.jpg);
+    background-image: url(beautifull_beach.jpg);
     background-position: bottom;
     filter: grayscale(100%);
     cursor: pointer;
