@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A web application Tour and Travel" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author" content="Ahmad Hilmi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        rel="stylesheet"
+        />
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link rel="stylesheet" href="aseets/style.css">
+            <title>Tour and Travel </title>
+            <style type="text/tailwindcss">
+                .card {
+                @apply shadow-lg mb-8 rounded overflow-hidden bg-white;
+                }
+            </style><style type="text/tailwindcss">
+    .card {
+        @apply shadow-lg mb-8 rounded overflow-hidden bg-white;
+    }
+    </style>
+    </head>
+    <body class="bg-grey-200" >
+    <header class="shadow-md fixed z-10 w-full h-50 bg-white">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <img class="logo" src="aseets/Travel.svg" alt="logo" srcset="">
+                <button id="hamburger-button" class="lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+                <nav class="hidden lg:block lg:w-auto">
+                <ul class="flex space-x-4">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="relative">
+                        <a href="#">About</a>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header><br>
+    <main class="container mx-auto w-full">
+        <picture>
+            <source media="(min-width:650px)" srcset="/aseets/dolomites.jpg">
+            <source media="(min-width:465px)" srcset="/aseets/beautifull_beach.jpg">
+            <img src="/aseets/air terjun.jpg" alt="Flowers" style="width:auto;">
+        </picture>
+        <div class="background">
+            <div class="grid lg:gap-10 lg:grid-cols-2">
+                <p class="mb-3 text-white text-style">
+                    Selamat datang di Situs Resmi Travel Wisata Indonesia! <br>
+                    Kami adalah mitra perjalanan Anda untuk menjelajahi keindahan alam dan kekayaan budaya Indonesia. Dengan pengalaman lebih dari 10 tahun, kami telah menjadi pilihan utama bagi para pelancong yang mencari petualangan tak terlupakan di negeri ini.
+                </p>
+                    <p class="mb-3 text-white text-style">  Dari pantai berpasir putih yang menakjubkan hingga gunung yang megah, dari hutan tropis yang lebat hingga keunikan budaya yang kaya, kami menyediakan paket perjalanan yang dirancang khusus untuk memenuhi kebutuhan dan keinginan Anda. <br>
+                    Mari bergabung dengan kami dalam petualangan tak terlupakan di Indonesia!
+                    </p>
+                </div>
+        </div>
+
+        <div class="grid lg:gap-8 lg:grid-cols-3">
+            <div class="lg:col-span-2">
+            <section>
+                <h2 class="text-3xl font-bold mb-8">Wisata Indonesia</h2>
+                <ul>
+                <li
+                    class="card hover:scale-105 transition-transform duration-500"
+                >
+                    <img class="w-full"
+                    src="/aseets/bali.jpg" alt="Wisata Bali"/>
+                    <div class="p-10">
+                    <h3 class="text-xl font-bold mb-4">
+                        Dentinasi Wisata Bali
+                    </h3>
+                    <p class="mb-4">
+                        Pulau Dewata yang terkenal dengan pantainya yang eksotis, kebudayaan yang kaya, dan keramahan penduduknya.
+                    </p>
+                    <a class="text-blue-600 hover:underline" href="#"
+                        >Detail</a
+                    >
+                    </div>
+                </li>
+                <li
+                    class="card hover:scale-105 transition-transform duration-500"
+                >
+                    <img
+                    class="w-full"
+                    src="/aseets/jogja.jpg"
+                    alt="Wisata Kota Jogja"
+                    />
+                    <div class="p-8">
+                    <h3 class="text-xl font-bold mb-4">
+                        Destinasi Wisata Jogja
+                    </h3>
+                    <p class="mb-4">
+                        Kota budaya yang kaya akan sejarah, dengan Candi Borobudur dan Candi Prambanan yang mengagumkanKota budaya yang kaya akan sejarah, dengan Candi Borobudur dan Candi Prambanan yang mengagumkan.
+                    </p>
+                    <a class="text-blue-600 hover:underline" href="#"
+                        >Detail</a
+                    >
+                    </div>
+                </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-3xl font-bold mb-8">Pulau Komodo</h2>
+                <article
+                class="card hover:scale-105 transition-transform duration-500"
+                >
+                <img
+                    class="w-full"
+                    src="/aseets/komodo.jpg"
+                    alt="Pulau Komodo"
+                />
+                <div class="p-8">
+                    <h3 class="text-xl font-bold mb-4">
+                    Destinasi Wisata Pulau Komodo
+                    </h3>
+                    <p class="mb-4">
+                        Pulau Komodo adalah sebuah pulau yang terletak di Kepulauan Nusa Tenggara, berada di sebelah timur Pulau Sumbawa, yang dipisahkan oleh Selat Sape. Pulau Komodo dikenal sebagai habitat asli hewan komodo.
+                    </p>
+                    <p class="mb-4">
+                        Pulau ini termasuk salah satu kawasan Taman Nasional Komodo yang dikelola oleh Pemerintah Pusat serta Rumah bagi komodo, kadal terbesar di dunia, dan keindahan bawah laut yang menakjubkan.
+                    </p>
+                    <a class="text-blue-600 hover:underline" href="https://id.wikipedia.org/wiki/Pulau_Komodo"
+                    >Read full article</a
+                    >
+                </div>
+                </article>
+            </section>
+
+            <section>
+                <h2 class="text-3xl font-bold mb-8">Danau Toba</h2>
+                <article
+                class="card hover:scale-105 transition-transform duration-500"
+                >
+                <img
+                    class="w-full"
+                    src="/aseets/toba.jpg"
+                    alt="Pulau Komodo"
+                />
+                <div class="p-8">
+                    <h3 class="text-xl font-bold mb-4">
+                    Destinasi Wisata Danau Toba
+                    </h3>
+                    <p class="mb-4">
+                        Danau Tobaadalah danau alami berukuran besar di Sumatera Utara, Indonesia yang terletak di kaldera gunung supervulkan. Danau ini memiliki panjang 100 kilometer (62 mil), lebar 30 kilometer (19 mi), dan kedalaman 508 meter (1.667 ft). Danau ini terletak di tengah pulau Sumatra bagian utara dengan ketinggian permukaan sekitar 900 meter (2.953 ft). Danau ini membentang dari 2.88°N 98.52°E sampai 2.35°N 99.1°E. Danau Toba merupakan adalah danau terbesar di Indonesia sekaligus danau vulkanik terbesar di dunia.
+                    </p>
+                    <p class="mb-4">
+                        Danau Toba terbentuk sebagai akibat dari letusan gunung berapi super masif berkekuatan VEI 8 sekitar 69.000 sampai 77.000 tahun yang lalu yang memicu perubahan iklim global. Metode penanggalan terkini yang berakurat menetapkan letusan tersebut terjadi sekitar 74.000 tahun yang lalu. Letusan ini merupakan letusan eksplosif terbesar di Bumi dalam 25 juta tahun terakhir. Menurut teori bencana Toba, letusan ini berdampak besar bagi populasi manusia di seluruh dunia; dampak letusan menewaskan sebagian besar manusia yang hidup waktu itu dan diyakini menyebabkan penyusutan populasi di Afrika Timur-Tengah dan India sehingga memengaruhi genetika populasi manusia di seluruh dunia sampai sekarang.
+                    </p>
+                    <a class="text-blue-600 hover:underline" href="https://id.wikipedia.org/wiki/Danau_Toba"
+                    >Read full article</a
+                    >
+                </div>
+                </article>
+            </section>
+            </div>
+        </div>
+
+        <form class=" bg-gray-200 text-white px-20 py-12" action="post">
+            <div class="space-y-12">
+                <div class="border-b border-gray-900/10 pb-12">
+                    <h2 class="text-base/7 font-semibold text-gray-900">Personal Information</h2>
+                    <p class="mt-1 text-sm/6 text-gray-600">Use a permanent address where you can receive mail.</p>
+            
+                    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                    <div class="sm:col-span-3">
+                        <label for="first-name" class="block text-sm/6 font-medium text-gray-900">First name</label>
+                        <div class="mt-2">
+                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+            
+                    <div class="sm:col-span-3">
+                        <label for="last-name" class="block text-sm/6 font-medium text-gray-900">Last name</label>
+                        <div class="mt-2">
+                        <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+            
+                    <div class="sm:col-span-4">
+                        <label for="email" class="block text-sm/6 font-medium text-gray-900">Email address</label>
+                        <div class="mt-2">
+                        <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+            
+                    <div class="sm:col-span-3">
+                        <label for="country" class="block text-sm/6 font-medium text-gray-900">Country</label>
+                        <div class="mt-2">
+                        <select id="country" name="country" autocomplete="country-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm/6">
+                            <option>Indonesia</option>
+                            <option>Korea</option>
+                            <option>USA</option>
+                        </select>
+                        </div>
+                    </div>
+            
+                    <div class="col-span-full">
+                        <label for="street-address" class="block text-sm/6 font-medium text-gray-900">Street address</label>
+                        <div class="mt-2">
+                        <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+            
+                    <div class="sm:col-span-2 sm:col-start-1">
+                        <label for="city" class="block text-sm/6 font-medium text-gray-900">City</label>
+                        <div class="mt-2">
+                        <input type="text" name="city" id="city" autocomplete="address-level2" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+            
+                    <div class="sm:col-span-2">
+                        <label for="region" class="block text-sm/6 font-medium text-gray-900">State / Province</label>
+                        <div class="mt-2">
+                        <input type="text" name="region" id="region" autocomplete="address-level1" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+            
+                    <div class="sm:col-span-2">
+                        <label for="postal-code" class="block text-sm/6 font-medium text-gray-900">ZIP / Postal code</label>
+                        <div class="mt-2">
+                        <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="list_fasilitas sm:col-span-2">
+            <h3>Fasilitas Wisata</h3>
+            <ul class="list">
+                <li>Sarapan, Makan Siang dan Makan Malem</li>
+                <li>setel bus, Kolam renang </li>
+                <li>Meja biliard, fasilitas Olahraga</li>
+              </ul>
+        </div>
+    
+    </main>
+
+    <footer class="bg-gray-800 text-white px-4 py-12">
+        <div class="container mx-auto">
+        <div class="lg:flex lg:space-x-4">
+            <section class="mb-4 lg:w-1/3">
+            <img class="object-contain h-50 w-30" src="aseets/Travel.svg" alt="logo" srcset="">
+            <p class="text-gray-400">
+                Explore Beautiful Destination Around The World.
+            </p>
+            </section>
+
+            <section class="mb-4 lg:w-1/3">
+            <h2 class="text-xl font-bold mb-4">Quick Links</h2>
+            <ul>
+                <li>
+                <a
+                    class="text-gray-400 hover:text-white transition-color duration-200"
+                    href="#"
+                    >Home</a
+                >
+                </li>
+                <li>
+                <a
+                    class="text-gray-400 hover:text-white transition-color duration-200"
+                    href="#"
+                    >About</a
+                >
+                </li>
+                <li>
+                <a
+                    class="text-gray-400 hover:text-white transition-color duration-200"
+                    href="#"
+                    >Contact</a
+                >
+                </li>
+            </ul>
+            </section>
+
+            <section class="mb-4 lg:w-1/3">
+            <h2 class="text-xl font-bold mb-4">Follow Us</h2>
+            <ul class="flex space-x-4">
+                <li>
+                <a
+                    class="text-gray-400 hover:text-white transition-color duration-200"
+                    href="#"
+                    ><i class="fa-brands fa-twitter fa-lg"></i
+                ></a>
+                </li>
+                <li>
+                <a
+                    class="text-gray-400 hover:text-white transition-color duration-200"
+                    href="#"
+                    ><i class="fa-brands fa-facebook fa-lg"></i
+                ></a>
+                </li>
+                <li>
+                <a
+                    class="text-gray-400 hover:text-white transition-color duration-200"
+                    href="#"
+                    ><i class="fa-brands fa-instagram fa-lg"></i
+                ></a>
+                </li>
+            </ul>
+            </section>
+        </div>
+
+        <section class="py-8 mt-8 text-center border-t border-white-700">
+            <p>© 2024 My Web. All rights reserved.</p>
+        </section>
+        </div>
+    </footer>
+
+    </body>
+    </html>
