@@ -43,9 +43,13 @@ p {
     transition-duration: 1s;
 }
 .text-style {
-    text-shadow:
-    rgb(255, 94, 0) 1px 0 10px;
+    font-style: oblique 23deg;
+    text-shadow: 
+    1px 1px 2px rgb(0, 0, 0),
+    0 0 2em rgb(0, 225, 255),
+    0 0 0.3em rgb(0, 81, 255);
 }
+
 .list_fasilitas{
     background-color: grey;
     padding: 20px;
