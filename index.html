@@ -43,6 +43,22 @@
             </div>
         </div>
     </header><br>
+        <div id="sidebar"
+        class="fixed w-[256px] left-0 h-full bg-white z-20 shadow lg:hidden -translate-x-full transition-all duration-300 ease-in-out">
+        <div class="p-6">
+            <button id="close-button" class="absolute top-4 right-4">
+            <i class="fas fa-times"></i>
+            </button>
+            <nav class="mt-8">
+            <ul class="space-y-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+        </div>
+
     <main class="container mx-auto w-full">
         <picture>
             <source media="(min-width:650px)" srcset="./aseets/dolomites.jpg">
@@ -314,5 +330,18 @@
         </div>
     </footer>
 
+    <script>
+        const sidebar = document.getElementById("sidebar");
+        const hamburgerButton = document.getElementById("hamburger-button");
+        const closeButton = document.getElementById("close-button");
+
+        hamburgerButton.addEventListener("click", () => {
+        sidebar.classList.remove("-translate-x-full");
+        });
+
+        closeButton.addEventListener("click", () => {
+        sidebar.classList.add("-translate-x-full");
+        });
+    </script>
     </body>
     </html>
